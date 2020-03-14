@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tabs renders 1`] = `
+<div
+  className="cm-tabs"
+>
+  <span
+    className=""
+    onClick={[Function]}
+  >
+    All
+  </span>
+  <span
+    className=""
+    onClick={[Function]}
+  >
+    Virtual
+  </span>
+  <span
+    className=""
+    onClick={[Function]}
+  >
+    Physical
+  </span>
+</div>
+`;

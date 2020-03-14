@@ -1,0 +1,159 @@
+{
+  "agents": [
+    {
+      "name": "bjstdmngbdr11.thoughtworks.com",
+      "os": "debian",
+      "status": "building",
+      "type": "virtual",
+      "ip": "192.168.1.102",
+      "location": "/var/lib/cruise-agent",
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
+      "id": 4
+    },
+    {
+      "name": "bjstdmngbdr15.thoughtworks.com",
+      "os": "suse",
+      "status": "idle",
+      "type": "physical",
+      "ip": "192.168.1.110",
+      "location": "/var/lib/cruise-agent",
+      "resources": [
+        "firefox",
+        "chrome",
+        "Ubuntu"
+      ],
+      "id": 5
+    },
+    {
+      "name": "bjstdmngbdr02.thoughtworks.com",
+      "os": "centos",
+      "status": "idle",
+      "type": "virtual",
+      "ip": "192.168.1.103",
+      "location": "/var/lib/cruise-agent",
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
+      "id": 6
+    },
+    {
+      "name": "bjstdmngbdr04.thoughtworks.com",
+      "os": "suse",
+      "status": "idle",
+      "type": "physical",
+      "ip": "192.168.1.113",
+      "location": "/var/lib/cruise-agent",
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome",
+        "test"
+      ],
+      "id": 7
+    },
+    {
+      "name": "bjstdmngbdr22.thoughtworks.com",
+      "os": "centos",
+      "status": "idle",
+      "type": "virtual",
+      "ip": "192.168.1.111",
+      "location": "/var/lib/cruise-agent",
+      "resources": [
+        "Ubuntu",
+        "Chrome",
+        "test"
+      ],
+      "id": 8
+    },
+    {
+      "name": "bjstdmngbdr08.thoughtworks.com",
+      "os": "windows",
+      "status": "building",
+      "type": "virtual",
+      "ip": "192.168.1.80",
+      "location": "/var/lib/cruise-agent",
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
+      "id": 10
+    },
+    {
+      "name": "bjstdmngbdr08.thoughtworks.com",
+      "os": "windows",
+      "status": "building",
+      "type": "virtual",
+      "ip": "192.168.1.80",
+      "location": "/var/lib/cruise-agent",
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
+      "id": 11
+    },
+    {
+      "name": "bjstdmngbdr08.thoughtworks.com",
+      "os": "windows",
+      "status": "building",
+      "type": "virtual",
+      "ip": "192.168.1.80",
+      "location": "/var/lib/cruise-agent",
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
+      "id": 12
+    }
+  ],
+  "menus": [
+    {
+      "name": "DASHBOARD",
+      "link": "/DASHBOARD",
+      "key": "DASHBOARD",
+      "icon": "dashboard"
+    },
+    {
+      "name": "AGENT",
+      "link": "/AGENT",
+      "key": "AGENT",
+      "icon": "sitemap"
+    },
+    {
+      "name": "MY CRUISE",
+      "link": "/MY_CRUISE",
+      "key": "MY_CRUISE",
+      "icon": "boat"
+    },
+    {
+      "name": "HELP",
+      "link": "/HELP",
+      "key": "HELP",
+      "icon": "life-bouy"
+    }
+  ],
+  "history": [
+    "bjstdmngbdr08.thoughtworks.com",
+    "bjstdmngbdr08.thoughtworks.com",
+    "bjstdmngbdr08.thoughtworks.com",
+    "bjstdmngbdr08.thoughtworks.com",
+    "bjstdmngbdr08.thoughtworks.com",
+    "bjstdmngbdr08.thoughtworks.com",
+    "bjstdmngbdr08.thoughtworks.com",
+    "bjstdmngbdr08.thoughtworks.com"
+  ]
+}

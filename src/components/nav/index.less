@@ -1,0 +1,56 @@
+@import "../../assets/styles/variable";
+
+@height: 40px;
+
+@media screen and (min-width: @min-width-desktop) {
+  .cm-nav-extra {
+    display: none;
+  }
+
+  .cm-header-logo {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: @max-width-tablet) {
+  .cm-nav-extra {
+    display: block;
+  }
+}
+
+
+.cm-nav-header {
+
+  padding: 10px 20px;
+  color: #d9d9d9;
+
+  .v-center {
+    display: flex;
+    align-items: center;
+  }
+
+  .v-center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid currentColor;
+
+  .img-common {
+    cursor: pointer;
+    height: @height;
+    width: auto;
+  }
+
+  .cm-header-avatar {
+    .img-common;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  .cm-header-profile {
+    .v-center;
+  }
+
+  .cm-header-logo {
+    .img-common;
+  }
+}

@@ -1,0 +1,65 @@
+
+@bac-color: #ffffff;
+@border: 1px solid #d9d9d9;
+@btn-height: 30px;
+
+.cm-popover {
+  position: relative;
+  z-index: 1000;
+
+  .content {
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: @bac-color;
+    padding: 10px;
+    border: @border;
+    margin-top: 10px;
+
+    box-shadow: 0 3px 5px;
+
+    > i {
+      align-self: flex-end;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+
+      position: absolute;
+      top: -5px;
+
+      width: 10px;
+      height: 10px;
+
+      background-color: @bac-color;
+      border: @border;
+      border-bottom: none;
+      border-right: none;
+
+      transform: rotate(45deg);
+    }
+
+    .popover-btn {
+      color: #ffffff;
+      height: @btn-height;
+      border: none;
+      margin-right: 20px;
+    }
+
+    .ok-popover {
+      background-color: #00b4CF;
+      .popover-btn;
+    }
+
+    .cancel-popover {
+      background-color: #435466;
+      .popover-btn;
+    }
+
+    .content-board {
+      padding: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+
+@import "../../assets/styles/variable";
+
+@height: 50px;
+@background-color: #ffffff;
+
+.agent-filter {
+  display: flex;
+  color: #999999;
+  font-size: 12px;
+
+  > :nth-child(n) {
+    height: @height;
+    flex: 1;
+    margin-bottom: 10px;
+  }
+}
+
+.agent-filter-search {
+  display: inline-block;
+  position: relative;
+  background-color: @background-color;
+  padding: 10px 20px;
+
+
+  > i {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  > input {
+    height: 100%;
+    width: 240px;
+    padding-left: 45px;
+    border: 1px solid #d9d9d9;
+    outline:none;
+    background-color: #efefef;
+
+    &:focus {
+      border: 1px solid #aacbe1;
+    }
+  }
+}
+
+.agent-filter-layout {
+  line-height: @height;
+  text-align: right;
+  color: #666666;
+  background-color: @background-color;
+
+  > i {
+    margin-right: 10px;
+
+    &:last-child {
+      color: #00b4CF;
+    }
+  }
+}
+
+
+@media screen and (min-width: @min-width-tablet) and (max-width: @max-width-tablet) {
+  .agent-filter-layout {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: @max-width-phone) {
+  .agent-filter-layout {
+    display: none;
+  }
+
+  .agent-filter-search {
+    > input {
+      width: 100%;
+    }
+  }
+
+  .agent-filter {
+    flex-wrap: wrap;
+    > :nth-child(n) {
+      min-width: 100%;
+    }
+  }
+}
+

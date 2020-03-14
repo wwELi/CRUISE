@@ -1,0 +1,77 @@
+
+@import "assets/styles/fonts.css";
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  outline: none;
+  height: 30px;
+  padding: 4px;
+  border: 1px solid #d9d9d9;
+
+  &:focus {
+    border: 1px solid #aacbe1;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+
+  height: 100vh;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  overflow: scroll;
+}
+
+.dashboard {
+  flex: 1;
+  background-color: #F3F3F3;
+}
+
+.extra-history {
+
+  padding-inline-start: 0px;
+  color: #999999;
+
+  > div {
+    margin-left: 5px;
+    font-size: 24px;
+  }
+
+  > li {
+    font-size: 12px;
+    padding-left: 10px;
+    margin-bottom: 4px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+
+    &::before {
+      content: "";
+      width: 5px;
+      height: 5px;
+      background-color: currentColor;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 5px;
+    }
+    &:hover {
+      background-color: #00b4CF;
+    }
+  }
+}
